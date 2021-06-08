@@ -1,0 +1,21 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+    display: flex;
+    background-color:rgb(193, 211, 226);
+    height: fit-content;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-title {
+    font-size: 1vw;
+    font-weight: bold;
+}
